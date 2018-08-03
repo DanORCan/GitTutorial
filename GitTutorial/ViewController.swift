@@ -10,10 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var randomMessage: UILabel!
+    
     @IBAction func pressMeButton(_ sender: UIButton) {
-        print("Hello Florida!")
-        print("Hello World!")
-        print("Hello Dan!")
+        randomMessage.text = "Welcome to Florida!"
     }
     
     override func viewDidLoad() {

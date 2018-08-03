@@ -10,10 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBAction func pressMeButton(_ sender: UIButton) {
         print("Hello Florida!")
         print("Hello World!")
         print("Hello Dan!")
+    }
+    
+    override func viewDidLoad() {
         super.viewDidLoad()
     }
 }

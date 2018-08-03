@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var randomMessage: UILabel!
     
     @IBAction func pressMeButton(_ sender: UIButton) {
+        randomMessage.isHidden = false
         randomMessage.text = "Welcome to Florida!"
     }
     

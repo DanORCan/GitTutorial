@@ -12,13 +12,13 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var randomMessage: UILabel!
     
+    @IBOutlet weak var buttonDisplay: UIButton!
+    
     @IBAction func pressMeButton(_ sender: UIButton) {
         randomMessage.isHidden = false
         randomMessage.text = "Welcome to Florida!"
+        buttonDisplay.isHidden = true
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
 }
 

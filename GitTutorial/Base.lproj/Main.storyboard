@@ -43,6 +43,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="buttonDisplay" destination="oFQ-hB-ZmK" id="Gge-GT-nik"/>
                         <outlet property="randomMessage" destination="tON-6a-X4i" id="NFR-aQ-aP2"/>
                     </connections>
                 </viewController>
